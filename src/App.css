@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+.link:hover {
+  backgorund-color: #1316b1;
+  color: #79410c;
+}
+
+.link {
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: larger;
+
+}
+
+.Home{
+  background-image:url('./img/react.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  height: 450px;
+  
+}
+
+.Home h1{
+  font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+
+.Home h2{
+  font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: aliceblue;
+    font-family: Gill Sans;
+}
+
+.input{
+  width: 650px;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(78, 169, 230);
+  height: 250px;
+}
+
+h3{
+  color: aliceblue;
+}
+
+.text-end{
+  color: aliceblue;
+}
+.gallery img {
+  height: 500px;
+}
+
+.gallery{
+  display: left;
+}
+

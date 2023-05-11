@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter,Route,Routes} from "react-router-dom"
+import About from './Component/About';
+import Home from './Component/Home';
+import Galery from './Component/Galery';
+import Footer from './Component/Footer';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element = {<App />}>
+      <Route path="Home" element = {<Home />}/>
+      <Route path="About" element = {<About />}/>
+      <Route path="Galery" element = {<Galery />}/>
+      <Route path="Footer" element = {<Footer />}/>
+      </Route>
+    </Routes>
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
